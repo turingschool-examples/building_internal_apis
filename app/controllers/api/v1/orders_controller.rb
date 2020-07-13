@@ -1,9 +1,11 @@
 class Api::V1::OrdersController < ApplicationController
   def index
-    render json: Order.all
+    orders = Order.all
+    render json: OrderSerializer.new(orders).order_info
   end
 
   def show
-    render json: Order.find(params[:id])
+    order = Order.where(id: params[:id])
+    render json: OrderSerializer.new(order).order_info
   end
 end
