@@ -11,6 +11,7 @@ gem 'rails', '~> 5.2.4.3'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.12'
 gem 'fast_jsonapi'
+gem 'bootsnap'
 
 group :development, :test do
   gem 'pry'
