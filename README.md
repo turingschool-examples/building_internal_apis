@@ -2,6 +2,12 @@
 
 This repo is a base repo used in Backend Module 3 lessons.
 
+### Versions
+
+Rails 5.2.4.3
+
+Ruby 2.5.3
+
 ### Setup
 
 1. Clone the repo
