@@ -1,24 +1,10 @@
-# README
+## Building Internal APIs
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo is a base repo used in Backend Module 3 lessons.
 
-Things you may want to cover:
+### Setup
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Clone the repo
+2. `cd building_internal_apis`
+3. `bundle install`
+4. `rake db:{create,migrate}`
