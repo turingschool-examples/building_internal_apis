@@ -7,7 +7,7 @@ end
 
 ruby '2.5.3'
 
-gem 'rails', '~> 5.1.7'
+gem 'rails', '~> 5.2.4.3'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.12'
 gem 'fast_jsonapi'
@@ -20,6 +20,8 @@ end
 group :test do
   gem 'factory_bot_rails'
   gem 'rspec-rails'
+  gem 'launchy'
+  gem 'capybara'
 end
 
 group :development do
